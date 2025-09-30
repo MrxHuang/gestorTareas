@@ -1,0 +1,253 @@
+<!-- Hero Section -->
+<div class="bg-gradient-to-br from-slate-50 to-slate-100 min-h-screen">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <div class="text-center">
+      <!-- Icono principal -->
+      <div class="mb-8">
+        <div class="inline-flex items-center justify-center w-20 h-20 bg-white rounded-2xl shadow-lg">
+          <svg class="h-10 w-10 text-slate-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
+          </svg>
+        </div>
+      </div>
+      
+      <!-- Título principal -->
+      <h1 class="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
+        Gestiona tus tareas de forma
+        <span class="text-slate-600">inteligente</span>
+      </h1>
+      
+      <!-- Subtítulo -->
+      <p class="text-xl text-slate-600 mb-12 max-w-2xl mx-auto leading-relaxed">
+        Organiza tu día a día con nuestra herramienta de gestión de tareas. 
+        Simple, eficiente y diseñada para maximizar tu productividad.
+      </p>
+      
+      <!-- Botones de acción -->
+      <div class="flex flex-col sm:flex-row gap-4 justify-center mb-16">
+        <a routerLink="./tareas" 
+           class="inline-flex items-center px-8 py-4 bg-slate-900 text-white font-semibold rounded-xl hover:bg-slate-800 transition-all duration-200 shadow-lg hover:shadow-xl">
+          <svg class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
+          </svg>
+          Comenzar ahora
+        </a>
+        <a routerLink="./about" 
+           class="inline-flex items-center px-8 py-4 bg-white text-slate-700 font-semibold rounded-xl border border-slate-200 hover:bg-slate-50 transition-all duration-200 shadow-sm hover:shadow-md">
+          <svg class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          Más información
+        </a>
+      </div>
+    </div>
+    
+    <!-- Características principales -->
+    <div class="grid md:grid-cols-3 gap-8 mt-16">
+      <div class="bg-white rounded-2xl p-8 shadow-sm hover:shadow-md transition-shadow duration-200">
+        <div class="w-12 h-12 bg-slate-100 rounded-xl flex items-center justify-center mb-6">
+          <svg class="h-6 w-6 text-slate-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+          </svg>
+        </div>
+        <h3 class="text-xl font-semibold text-slate-900 mb-4">Rápido y eficiente</h3>
+        <p class="text-slate-600">Gestiona tus tareas con una interfaz intuitiva que te permite ser más productivo.</p>
+      </div>
+      
+      <div class="bg-white rounded-2xl p-8 shadow-sm hover:shadow-md transition-shadow duration-200">
+        <div class="w-12 h-12 bg-slate-100 rounded-xl flex items-center justify-center mb-6">
+          <svg class="h-6 w-6 text-slate-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+        </div>
+        <h3 class="text-xl font-semibold text-slate-900 mb-4">Organización perfecta</h3>
+        <p class="text-slate-600">Mantén todas tus tareas organizadas y nunca pierdas de vista lo que es importante.</p>
+      </div>
+      
+      <div class="bg-white rounded-2xl p-8 shadow-sm hover:shadow-md transition-shadow duration-200">
+        <div class="w-12 h-12 bg-slate-100 rounded-xl flex items-center justify-center mb-6">
+          <svg class="h-6 w-6 text-slate-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+          </svg>
+        </div>
+        <h3 class="text-xl font-semibold text-slate-900 mb-4">Seguro y confiable</h3>
+        <p class="text-slate-600">Tus datos están seguros con nosotros. Una experiencia confiable y sin complicaciones.</p>
+      </div>
+    </div>
+
+    <!-- Estadísticas de productividad -->
+    <div class="mt-24">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold text-slate-900 mb-4">Aumenta tu productividad</h2>
+        <p class="text-xl text-slate-600">Descubre cómo nuestra herramienta puede transformar tu forma de trabajar</p>
+      </div>
+      
+      <div class="grid md:grid-cols-4 gap-6">
+        <div class="bg-white rounded-2xl p-6 shadow-sm text-center">
+          <div class="text-3xl font-bold text-slate-900 mb-2">+40%</div>
+          <div class="text-slate-600">Más productivo</div>
+        </div>
+        <div class="bg-white rounded-2xl p-6 shadow-sm text-center">
+          <div class="text-3xl font-bold text-slate-900 mb-2">-60%</div>
+          <div class="text-slate-600">Menos estrés</div>
+        </div>
+        <div class="bg-white rounded-2xl p-6 shadow-sm text-center">
+          <div class="text-3xl font-bold text-slate-900 mb-2">95%</div>
+          <div class="text-slate-600">Tareas completadas</div>
+        </div>
+        <div class="bg-white rounded-2xl p-6 shadow-sm text-center">
+          <div class="text-3xl font-bold text-slate-900 mb-2">2h</div>
+          <div class="text-slate-600">Tiempo ahorrado/día</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Funcionalidades avanzadas -->
+    <div class="mt-24">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold text-slate-900 mb-4">Funcionalidades Avanzadas</h2>
+        <p class="text-xl text-slate-600">Herramientas poderosas para maximizar tu eficiencia</p>
+      </div>
+      
+      <div class="grid lg:grid-cols-2 gap-8">
+        <!-- Panel izquierdo -->
+        <div class="space-y-6">
+          <div class="bg-white rounded-2xl p-8 shadow-sm border border-slate-200">
+            <div class="flex items-center mb-6">
+              <div class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mr-4">
+                <svg class="h-6 w-6 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                </svg>
+              </div>
+              <h3 class="text-xl font-semibold text-slate-900">Análisis de Progreso</h3>
+            </div>
+            <p class="text-slate-600 mb-4">Visualiza tu progreso diario, semanal y mensual con gráficos intuitivos que te muestran tu evolución.</p>
+            <ul class="space-y-2 text-sm text-slate-500">
+              <li class="flex items-center"><svg class="h-4 w-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Estadísticas de completación</li>
+              <li class="flex items-center"><svg class="h-4 w-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Tendencias de productividad</li>
+              <li class="flex items-center"><svg class="h-4 w-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Reportes detallados</li>
+            </ul>
+          </div>
+
+          <div class="bg-white rounded-2xl p-8 shadow-sm border border-slate-200">
+            <div class="flex items-center mb-6">
+              <div class="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center mr-4">
+                <svg class="h-6 w-6 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <h3 class="text-xl font-semibold text-slate-900">Recordatorios Inteligentes</h3>
+            </div>
+            <p class="text-slate-600 mb-4">Sistema de notificaciones que se adapta a tus patrones de trabajo y te ayuda a mantener el enfoque.</p>
+            <ul class="space-y-2 text-sm text-slate-500">
+              <li class="flex items-center"><svg class="h-4 w-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Notificaciones personalizadas</li>
+              <li class="flex items-center"><svg class="h-4 w-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Recordatorios por horario</li>
+              <li class="flex items-center"><svg class="h-4 w-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Alertas de vencimiento</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Panel derecho -->
+        <div class="space-y-6">
+          <div class="bg-white rounded-2xl p-8 shadow-sm border border-slate-200">
+            <div class="flex items-center mb-6">
+              <div class="w-12 h-12 bg-purple-100 rounded-xl flex items-center justify-center mr-4">
+                <svg class="h-6 w-6 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" />
+                </svg>
+              </div>
+              <h3 class="text-xl font-semibold text-slate-900">Categorización Inteligente</h3>
+            </div>
+            <p class="text-slate-600 mb-4">Organiza automáticamente tus tareas por categorías, prioridades y contextos para una mejor gestión.</p>
+            <ul class="space-y-2 text-sm text-slate-500">
+              <li class="flex items-center"><svg class="h-4 w-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Etiquetas automáticas</li>
+              <li class="flex items-center"><svg class="h-4 w-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Filtros avanzados</li>
+              <li class="flex items-center"><svg class="h-4 w-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Búsqueda inteligente</li>
+            </ul>
+          </div>
+
+          <div class="bg-white rounded-2xl p-8 shadow-sm border border-slate-200">
+            <div class="flex items-center mb-6">
+              <div class="w-12 h-12 bg-orange-100 rounded-xl flex items-center justify-center mr-4">
+                <svg class="h-6 w-6 text-orange-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+              </div>
+              <h3 class="text-xl font-semibold text-slate-900">Sincronización en Tiempo Real</h3>
+            </div>
+            <p class="text-slate-600 mb-4">Tus tareas se sincronizan automáticamente entre todos tus dispositivos para acceso instantáneo.</p>
+            <ul class="space-y-2 text-sm text-slate-500">
+              <li class="flex items-center"><svg class="h-4 w-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Acceso multiplataforma</li>
+              <li class="flex items-center"><svg class="h-4 w-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Sincronización automática</li>
+              <li class="flex items-center"><svg class="h-4 w-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Respaldo en la nube</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tips y mejores prácticas -->
+    <div class="mt-24 bg-slate-900 rounded-3xl p-12 text-white">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold mb-4">Tips para Maximizar tu Productividad</h2>
+        <p class="text-xl text-slate-300">Consejos profesionales para sacar el máximo provecho de tu gestión de tareas</p>
+      </div>
+      
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="text-center">
+          <div class="w-16 h-16 bg-white/10 rounded-2xl flex items-center justify-center mx-auto mb-6">
+            <svg class="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-4">Técnica Pomodoro</h3>
+          <p class="text-slate-300">Trabaja en bloques de 25 minutos con descansos de 5 minutos para mantener el enfoque y evitar el agotamiento.</p>
+        </div>
+        
+        <div class="text-center">
+          <div class="w-16 h-16 bg-white/10 rounded-2xl flex items-center justify-center mx-auto mb-6">
+            <svg class="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-4">Regla de los 2 minutos</h3>
+          <p class="text-slate-300">Si una tarea toma menos de 2 minutos, hazla inmediatamente. Esto evita la acumulación de tareas pequeñas.</p>
+        </div>
+        
+        <div class="text-center">
+          <div class="w-16 h-16 bg-white/10 rounded-2xl flex items-center justify-center mx-auto mb-6">
+            <svg class="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-4">Priorización ABC</h3>
+          <p class="text-slate-300">Clasifica tus tareas: A (urgente e importante), B (importante no urgente), C (ni urgente ni importante).</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Call to action final -->
+    <div class="mt-24 text-center">
+      <h2 class="text-3xl font-bold text-slate-900 mb-6">¿Listo para transformar tu productividad?</h2>
+      <p class="text-xl text-slate-600 mb-8 max-w-2xl mx-auto">
+        Únete a miles de usuarios que ya han mejorado su gestión de tareas con nuestra herramienta.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a routerLink="./tareas" 
+           class="inline-flex items-center px-8 py-4 bg-slate-900 text-white font-semibold rounded-xl hover:bg-slate-800 transition-all duration-200 shadow-lg hover:shadow-xl">
+          <svg class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
+          </svg>
+          Comenzar Gratis
+        </a>
+        <a routerLink="./about" 
+           class="inline-flex items-center px-8 py-4 bg-white text-slate-700 font-semibold rounded-xl border border-slate-200 hover:bg-slate-50 transition-all duration-200 shadow-sm hover:shadow-md">
+          <svg class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          Conocer Más
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

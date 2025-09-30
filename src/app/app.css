@@ -1,0 +1,69 @@
+/* Estilos específicos del componente principal */
+app-root {
+  display: block;
+  min-height: 100vh;
+}
+
+/* Mejoras para el router outlet */
+router-outlet {
+  display: block;
+}
+
+/* Estilos para la navegación activa */
+.router-link-active {
+  background-color: #f1f5f9 !important;
+  color: #1e293b !important;
+  font-weight: 600;
+}
+
+/* Mejoras para los botones */
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Mejoras para los inputs */
+input:focus, textarea:focus, select:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+/* Animaciones para las transiciones de página */
+.page-transition {
+  animation: fadeIn 0.3s ease-out;
+}
+
+/* Mejoras para elementos interactivos */
+.interactive {
+  transition: all 0.2s ease-in-out;
+}
+
+.interactive:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el estado de carga */
+.loading {
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+/* Mejoras para la accesibilidad */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
